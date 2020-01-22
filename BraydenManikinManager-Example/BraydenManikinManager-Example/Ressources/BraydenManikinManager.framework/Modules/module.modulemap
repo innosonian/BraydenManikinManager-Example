@@ -1,0 +1,11 @@
+framework module BraydenManikinManager {
+  umbrella header "BraydenManikinManager.h"
+
+  export *
+  module * { export * }
+}
+
+module BraydenManikinManager.Swift {
+    header "BraydenManikinManager-Swift.h"
+    requires objc
+}

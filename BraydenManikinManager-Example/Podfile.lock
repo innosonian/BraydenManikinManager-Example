@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - iOSDFULibrary (4.6.1):
+    - ZIPFoundation (= 0.9.9)
+  - ObjectMapper (3.5.1)
+  - RxBluetoothKit (5.3.0):
+    - RxSwift (~> 5.0)
+  - RxSwift (5.0.1)
+  - SwiftyJSON (5.0.0)
+  - ZIPFoundation (0.9.9)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.2)
+  - AlamofireObjectMapper (= 5.0.0)
+  - iOSDFULibrary
+  - RxBluetoothKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - iOSDFULibrary
+    - ObjectMapper
+    - RxBluetoothKit
+    - RxSwift
+    - SwiftyJSON
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  iOSDFULibrary: 3053cf01eaabec37dc7372fb77ae4a218b577c55
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  RxBluetoothKit: 0e781978e8a0df70ac3c611dcf44800b76c69f8a
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
+
+PODFILE CHECKSUM: 8175ba51a2206a339f7e4f32a147ef5d9bb3a569
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DEA42F23D7EDEF00B1D55A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DEA42E23D7EDEF00B1D55A /* AppDelegate.swift */; };
+		09DEA43323D7EDEF00B1D55A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DEA43223D7EDEF00B1D55A /* ViewController.swift */; };
+		09DEA43623D7EDEF00B1D55A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DEA43423D7EDEF00B1D55A /* Main.storyboard */; };
+		09DEA43823D7EDF000B1D55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DEA43723D7EDF000B1D55A /* Assets.xcassets */; };
+		09DEA43B23D7EDF000B1D55A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DEA43923D7EDF000B1D55A /* LaunchScreen.storyboard */; };
+		09DEA44623D7EDF000B1D55A /* BraydenManikinManager_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DEA44523D7EDF000B1D55A /* BraydenManikinManager_ExampleTests.swift */; };
+		09DEA45123D7EDF000B1D55A /* BraydenManikinManager_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DEA45023D7EDF000B1D55A /* BraydenManikinManager_ExampleUITests.swift */; };
+		09DEA46123D7EE9E00B1D55A /* BraydenManikinManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DEA45F23D7EE9E00B1D55A /* BraydenManikinManager.framework */; };
+		09DEA46223D7EE9E00B1D55A /* BraydenManikinManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DEA45F23D7EE9E00B1D55A /* BraydenManikinManager.framework */; };
+		09EC83E623D80EAB0047DC79 /* BraydenManikinManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09DEA45F23D7EE9E00B1D55A /* BraydenManikinManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A4E4E0EF8A1D4C1C74BD814 /* Pods_BraydenManikinManager_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7AD1C21861FB1E62416021 /* Pods_BraydenManikinManager_ExampleUITests.framework */; };
+		3E17C7014CAE7BC87341582D /* Pods_BraydenManikinManager_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B97DBB4710399FCDA8B56AF /* Pods_BraydenManikinManager_ExampleTests.framework */; };
+		75A5ADFA79FDC237C594D44E /* Pods_BraydenManikinManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD06298FD7C85A77011B88 /* Pods_BraydenManikinManager_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09DEA44223D7EDF000B1D55A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DEA42323D7EDEF00B1D55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DEA42A23D7EDEF00B1D55A;
+			remoteInfo = "BraydenManikinManager-Example";
+		};
+		09DEA44D23D7EDF000B1D55A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DEA42323D7EDEF00B1D55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DEA42A23D7EDEF00B1D55A;
+			remoteInfo = "BraydenManikinManager-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09EC83E723D80EAB0047DC79 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09EC83E623D80EAB0047DC79 /* BraydenManikinManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0019194F2D9523EC67E438C4 /* Pods-BraydenManikinManager-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraydenManikinManager-ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-BraydenManikinManager-ExampleUITests/Pods-BraydenManikinManager-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09B35B28A64C1497C052BE84 /* Pods-BraydenManikinManager-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraydenManikinManager-Example.release.xcconfig"; path = "Target Support Files/Pods-BraydenManikinManager-Example/Pods-BraydenManikinManager-Example.release.xcconfig"; sourceTree = "<group>"; };
+		09DEA42B23D7EDEF00B1D55A /* BraydenManikinManager-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BraydenManikinManager-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DEA42E23D7EDEF00B1D55A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09DEA43223D7EDEF00B1D55A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09DEA43523D7EDEF00B1D55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09DEA43723D7EDF000B1D55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DEA43A23D7EDF000B1D55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09DEA43C23D7EDF000B1D55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DEA44123D7EDF000B1D55A /* BraydenManikinManager-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BraydenManikinManager-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DEA44523D7EDF000B1D55A /* BraydenManikinManager_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraydenManikinManager_ExampleTests.swift; sourceTree = "<group>"; };
+		09DEA44723D7EDF000B1D55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DEA44C23D7EDF000B1D55A /* BraydenManikinManager-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BraydenManikinManager-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DEA45023D7EDF000B1D55A /* BraydenManikinManager_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraydenManikinManager_ExampleUITests.swift; sourceTree = "<group>"; };
+		09DEA45223D7EDF000B1D55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DEA45F23D7EE9E00B1D55A /* BraydenManikinManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BraydenManikinManager.framework; sourceTree = "<group>"; };
+		3C69C670A624C6121C60ED20 /* Pods-BraydenManikinManager-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraydenManikinManager-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-BraydenManikinManager-ExampleTests/Pods-BraydenManikinManager-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		4669E5FDC3A2362EC0A732E1 /* Pods-BraydenManikinManager-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraydenManikinManager-ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-BraydenManikinManager-ExampleUITests/Pods-BraydenManikinManager-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7AD1C21861FB1E62416021 /* Pods_BraydenManikinManager_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraydenManikinManager_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B97DBB4710399FCDA8B56AF /* Pods_BraydenManikinManager_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraydenManikinManager_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A404BBA5F3C556D50A80E0 /* Pods-BraydenManikinManager-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraydenManikinManager-ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-BraydenManikinManager-ExampleTests/Pods-BraydenManikinManager-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86DD06298FD7C85A77011B88 /* Pods_BraydenManikinManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraydenManikinManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C2F5FEDF4354E07981A5ED /* Pods-BraydenManikinManager-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraydenManikinManager-Example.debug.xcconfig"; path = "Target Support Files/Pods-BraydenManikinManager-Example/Pods-BraydenManikinManager-Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DEA42823D7EDEF00B1D55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A5ADFA79FDC237C594D44E /* Pods_BraydenManikinManager_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DEA43E23D7EDF000B1D55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DEA46123D7EE9E00B1D55A /* BraydenManikinManager.framework in Frameworks */,
+				3E17C7014CAE7BC87341582D /* Pods_BraydenManikinManager_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DEA44923D7EDF000B1D55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DEA46223D7EE9E00B1D55A /* BraydenManikinManager.framework in Frameworks */,
+				3A4E4E0EF8A1D4C1C74BD814 /* Pods_BraydenManikinManager_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085AEFA3494F0A116F522E6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86DD06298FD7C85A77011B88 /* Pods_BraydenManikinManager_Example.framework */,
+				7B97DBB4710399FCDA8B56AF /* Pods_BraydenManikinManager_ExampleTests.framework */,
+				5F7AD1C21861FB1E62416021 /* Pods_BraydenManikinManager_ExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09DEA42223D7EDEF00B1D55A = {
+			isa = PBXGroup;
+			children = (
+				09DEA42D23D7EDEF00B1D55A /* BraydenManikinManager-Example */,
+				09DEA44423D7EDF000B1D55A /* BraydenManikinManager-ExampleTests */,
+				09DEA44F23D7EDF000B1D55A /* BraydenManikinManager-ExampleUITests */,
+				09DEA42C23D7EDEF00B1D55A /* Products */,
+				AD3D952C7F5D81DA3A9FCE90 /* Pods */,
+				085AEFA3494F0A116F522E6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09DEA42C23D7EDEF00B1D55A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DEA42B23D7EDEF00B1D55A /* BraydenManikinManager-Example.app */,
+				09DEA44123D7EDF000B1D55A /* BraydenManikinManager-ExampleTests.xctest */,
+				09DEA44C23D7EDF000B1D55A /* BraydenManikinManager-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DEA42D23D7EDEF00B1D55A /* BraydenManikinManager-Example */ = {
+			isa = PBXGroup;
+			children = (
+				09DEA45E23D7EE9E00B1D55A /* Ressources */,
+				09DEA42E23D7EDEF00B1D55A /* AppDelegate.swift */,
+				09DEA43223D7EDEF00B1D55A /* ViewController.swift */,
+				09DEA43423D7EDEF00B1D55A /* Main.storyboard */,
+				09DEA43723D7EDF000B1D55A /* Assets.xcassets */,
+				09DEA43923D7EDF000B1D55A /* LaunchScreen.storyboard */,
+				09DEA43C23D7EDF000B1D55A /* Info.plist */,
+			);
+			path = "BraydenManikinManager-Example";
+			sourceTree = "<group>";
+		};
+		09DEA44423D7EDF000B1D55A /* BraydenManikinManager-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				09DEA44523D7EDF000B1D55A /* BraydenManikinManager_ExampleTests.swift */,
+				09DEA44723D7EDF000B1D55A /* Info.plist */,
+			);
+			path = "BraydenManikinManager-ExampleTests";
+			sourceTree = "<group>";
+		};
+		09DEA44F23D7EDF000B1D55A /* BraydenManikinManager-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09DEA45023D7EDF000B1D55A /* BraydenManikinManager_ExampleUITests.swift */,
+				09DEA45223D7EDF000B1D55A /* Info.plist */,
+			);
+			path = "BraydenManikinManager-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		09DEA45E23D7EE9E00B1D55A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				09DEA45F23D7EE9E00B1D55A /* BraydenManikinManager.framework */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		AD3D952C7F5D81DA3A9FCE90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C2F5FEDF4354E07981A5ED /* Pods-BraydenManikinManager-Example.debug.xcconfig */,
+				09B35B28A64C1497C052BE84 /* Pods-BraydenManikinManager-Example.release.xcconfig */,
+				82A404BBA5F3C556D50A80E0 /* Pods-BraydenManikinManager-ExampleTests.debug.xcconfig */,
+				3C69C670A624C6121C60ED20 /* Pods-BraydenManikinManager-ExampleTests.release.xcconfig */,
+				4669E5FDC3A2362EC0A732E1 /* Pods-BraydenManikinManager-ExampleUITests.debug.xcconfig */,
+				0019194F2D9523EC67E438C4 /* Pods-BraydenManikinManager-ExampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DEA42A23D7EDEF00B1D55A /* BraydenManikinManager-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DEA45523D7EDF000B1D55A /* Build configuration list for PBXNativeTarget "BraydenManikinManager-Example" */;
+			buildPhases = (
+				6D3F62A1AA8EF6D943BC0245 /* [CP] Check Pods Manifest.lock */,
+				09DEA42723D7EDEF00B1D55A /* Sources */,
+				09DEA42823D7EDEF00B1D55A /* Frameworks */,
+				09DEA42923D7EDEF00B1D55A /* Resources */,
+				062F39D58412E4A380A8981F /* [CP] Embed Pods Frameworks */,
+				09EC83E723D80EAB0047DC79 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BraydenManikinManager-Example";
+			productName = "BraydenManikinManager-Example";
+			productReference = 09DEA42B23D7EDEF00B1D55A /* BraydenManikinManager-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09DEA44023D7EDF000B1D55A /* BraydenManikinManager-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DEA45823D7EDF000B1D55A /* Build configuration list for PBXNativeTarget "BraydenManikinManager-ExampleTests" */;
+			buildPhases = (
+				EF22EE869AD74F825B420AE8 /* [CP] Check Pods Manifest.lock */,
+				09DEA43D23D7EDF000B1D55A /* Sources */,
+				09DEA43E23D7EDF000B1D55A /* Frameworks */,
+				09DEA43F23D7EDF000B1D55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DEA44323D7EDF000B1D55A /* PBXTargetDependency */,
+			);
+			name = "BraydenManikinManager-ExampleTests";
+			productName = "BraydenManikinManager-ExampleTests";
+			productReference = 09DEA44123D7EDF000B1D55A /* BraydenManikinManager-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09DEA44B23D7EDF000B1D55A /* BraydenManikinManager-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DEA45B23D7EDF000B1D55A /* Build configuration list for PBXNativeTarget "BraydenManikinManager-ExampleUITests" */;
+			buildPhases = (
+				DF0941A8FDD1CF7E3E59C2BB /* [CP] Check Pods Manifest.lock */,
+				09DEA44823D7EDF000B1D55A /* Sources */,
+				09DEA44923D7EDF000B1D55A /* Frameworks */,
+				09DEA44A23D7EDF000B1D55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DEA44E23D7EDF000B1D55A /* PBXTargetDependency */,
+			);
+			name = "BraydenManikinManager-ExampleUITests";
+			productName = "BraydenManikinManager-ExampleUITests";
+			productReference = 09DEA44C23D7EDF000B1D55A /* BraydenManikinManager-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DEA42323D7EDEF00B1D55A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = innosonian;
+				TargetAttributes = {
+					09DEA42A23D7EDEF00B1D55A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					09DEA44023D7EDF000B1D55A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 09DEA42A23D7EDEF00B1D55A;
+					};
+					09DEA44B23D7EDF000B1D55A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 09DEA42A23D7EDEF00B1D55A;
+					};
+				};
+			};
+			buildConfigurationList = 09DEA42623D7EDEF00B1D55A /* Build configuration list for PBXProject "BraydenManikinManager-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09DEA42223D7EDEF00B1D55A;
+			productRefGroup = 09DEA42C23D7EDEF00B1D55A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DEA42A23D7EDEF00B1D55A /* BraydenManikinManager-Example */,
+				09DEA44023D7EDF000B1D55A /* BraydenManikinManager-ExampleTests */,
+				09DEA44B23D7EDF000B1D55A /* BraydenManikinManager-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DEA42923D7EDEF00B1D55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DEA43B23D7EDF000B1D55A /* LaunchScreen.storyboard in Resources */,
+				09DEA43823D7EDF000B1D55A /* Assets.xcassets in Resources */,
+				09DEA43623D7EDEF00B1D55A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DEA43F23D7EDF000B1D55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DEA44A23D7EDF000B1D55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062F39D58412E4A380A8981F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BraydenManikinManager-Example/Pods-BraydenManikinManager-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BraydenManikinManager-Example/Pods-BraydenManikinManager-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BraydenManikinManager-Example/Pods-BraydenManikinManager-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3F62A1AA8EF6D943BC0245 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BraydenManikinManager-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0941A8FDD1CF7E3E59C2BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BraydenManikinManager-ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF22EE869AD74F825B420AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BraydenManikinManager-ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DEA42723D7EDEF00B1D55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DEA43323D7EDEF00B1D55A /* ViewController.swift in Sources */,
+				09DEA42F23D7EDEF00B1D55A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DEA43D23D7EDF000B1D55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DEA44623D7EDF000B1D55A /* BraydenManikinManager_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DEA44823D7EDF000B1D55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DEA45123D7EDF000B1D55A /* BraydenManikinManager_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DEA44323D7EDF000B1D55A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DEA42A23D7EDEF00B1D55A /* BraydenManikinManager-Example */;
+			targetProxy = 09DEA44223D7EDF000B1D55A /* PBXContainerItemProxy */;
+		};
+		09DEA44E23D7EDF000B1D55A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DEA42A23D7EDEF00B1D55A /* BraydenManikinManager-Example */;
+			targetProxy = 09DEA44D23D7EDF000B1D55A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09DEA43423D7EDEF00B1D55A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DEA43523D7EDEF00B1D55A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09DEA43923D7EDF000B1D55A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DEA43A23D7EDF000B1D55A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09DEA45323D7EDF000B1D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		09DEA45423D7EDF000B1D55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DEA45623D7EDF000B1D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C2F5FEDF4354E07981A5ED /* Pods-BraydenManikinManager-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6VU7R7GHS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraydenManikinManager-Example/Ressources",
+				);
+				INFOPLIST_FILE = "BraydenManikinManager-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "innosonian.BraydenManikinManager-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09DEA45723D7EDF000B1D55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B35B28A64C1497C052BE84 /* Pods-BraydenManikinManager-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6VU7R7GHS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraydenManikinManager-Example/Ressources",
+				);
+				INFOPLIST_FILE = "BraydenManikinManager-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "innosonian.BraydenManikinManager-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09DEA45923D7EDF000B1D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A404BBA5F3C556D50A80E0 /* Pods-BraydenManikinManager-ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6VU7R7GHS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraydenManikinManager-Example/Ressources",
+				);
+				INFOPLIST_FILE = "BraydenManikinManager-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "innosonian.BraydenManikinManager-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BraydenManikinManager-Example.app/BraydenManikinManager-Example";
+			};
+			name = Debug;
+		};
+		09DEA45A23D7EDF000B1D55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C69C670A624C6121C60ED20 /* Pods-BraydenManikinManager-ExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6VU7R7GHS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraydenManikinManager-Example/Ressources",
+				);
+				INFOPLIST_FILE = "BraydenManikinManager-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "innosonian.BraydenManikinManager-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BraydenManikinManager-Example.app/BraydenManikinManager-Example";
+			};
+			name = Release;
+		};
+		09DEA45C23D7EDF000B1D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4669E5FDC3A2362EC0A732E1 /* Pods-BraydenManikinManager-ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6VU7R7GHS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraydenManikinManager-Example/Ressources",
+				);
+				INFOPLIST_FILE = "BraydenManikinManager-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "innosonian.BraydenManikinManager-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BraydenManikinManager-Example";
+			};
+			name = Debug;
+		};
+		09DEA45D23D7EDF000B1D55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0019194F2D9523EC67E438C4 /* Pods-BraydenManikinManager-ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6VU7R7GHS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BraydenManikinManager-Example/Ressources",
+				);
+				INFOPLIST_FILE = "BraydenManikinManager-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "innosonian.BraydenManikinManager-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BraydenManikinManager-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DEA42623D7EDEF00B1D55A /* Build configuration list for PBXProject "BraydenManikinManager-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DEA45323D7EDF000B1D55A /* Debug */,
+				09DEA45423D7EDF000B1D55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DEA45523D7EDF000B1D55A /* Build configuration list for PBXNativeTarget "BraydenManikinManager-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DEA45623D7EDF000B1D55A /* Debug */,
+				09DEA45723D7EDF000B1D55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DEA45823D7EDF000B1D55A /* Build configuration list for PBXNativeTarget "BraydenManikinManager-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DEA45923D7EDF000B1D55A /* Debug */,
+				09DEA45A23D7EDF000B1D55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DEA45B23D7EDF000B1D55A /* Build configuration list for PBXNativeTarget "BraydenManikinManager-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DEA45C23D7EDF000B1D55A /* Debug */,
+				09DEA45D23D7EDF000B1D55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DEA42323D7EDEF00B1D55A /* Project object */;
+}
